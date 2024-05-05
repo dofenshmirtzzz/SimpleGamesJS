@@ -1,22 +1,5 @@
-body{
-	background-color: black;
-	color:  white;
-	font-family: 'Press Start 2P';
-}
 
-h1, h2{
-	text-align:  center;
-}
-
-h1{
-	font-size:  3em;
-}
-
-h2{
-	font-size:  2.5em;
-}
-
-#tablero{
+#board{
 	margin: auto;
 	width: 750px;
 	max-width:  100%;
@@ -24,7 +7,7 @@ h2{
 	flex-wrap:  wrap;
 }
 
-#tablero>button{
+#board>button{
 	width: 250px;
 	height: 250px;  
 	max-width: 33.33%;
@@ -35,10 +18,13 @@ h2{
 	visibility: hidden;
 	color: Chartreuse;
 }
-a{
+.rest{
     text-align: center;
-    color: white;
+    color: rgba(255, 85, 136, 0.836);
     text-decoration: none;
     font-size: x-large;
-    
+	display: none;
+}
+body{
+	text-align: center;
 }
